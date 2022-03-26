@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Titulo";
-  src: url("./Recursos/OpenSans-Bold.ttf");
+  src: url("./OpenSans-Bold.ttf");
 }
 @font-face {
   font-family: "Parrafos";
-  src: url("./Recursos/Roboto-Regular.ttf");
+  src: url("./Roboto-Regular.ttf");
 }
 
 * {
