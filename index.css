@@ -1,0 +1,385 @@
+@font-face {
+  font-family: "Titulo";
+  src: url("./Recursos/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Parrafos";
+  src: url("./Recursos/Roboto-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(./puntitos.svg);
+}
+
+.header {
+  background-image: url(./puntitos.svg);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo1 {
+  height: 60px;
+  margin-top: 18px;
+  margin-left: 17px;
+}
+
+.contenedor-menu-mobile {
+  height: 6px;
+  width: 30px;
+  gap: 5px;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .contenedor-menu-mobile {
+    display: none;
+  }
+}
+
+.barra-negra {
+  width: 100%;
+  height: 100%;
+  border: black solid;
+}
+
+.menu-triple {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .menu-triple {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin-right: 20px;
+  }
+
+  .opciones {
+    margin: auto;
+    font-family: "Parrafos";
+    font-weight: 700;
+  }
+}
+
+.primera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .primera-section {
+    height: 616px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.primera-titulo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700, bold;
+  font-size: 48px;
+  margin: 70px 42px 58px 42px;
+}
+
+@media (min-width: 768px) {
+  .primera-titulo {
+    text-align: left;
+    font-family: "Titulo";
+    font-size: 48px;
+    width: 331px;
+    margin-right: 70px;
+  }
+}
+
+.primera-img {
+  height: 300px;
+  width: 200px;
+}
+@media (min-width: 768px) {
+  .primera-img {
+    margin-right: 70px;
+  }
+}
+.segunda-section {
+  color: #fafafa;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.segunda-contenedor {
+  height: 538px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .segunda-contenedor {
+    height: 530px;
+    width: 749px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+
+.segunda-contenedor-texto {
+  width: 388px;
+}
+@media (min-width: 768px) {
+  .segunda-contenedor-texto {
+    width: 525px;
+  }
+}
+
+.segunda-parrafo {
+  margin: 30px;
+}
+
+.segunda-subtitulo {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  margin: 60px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+  .segunda-subtitulo {
+    text-align: start;
+    margin-left: 30px;
+    margin: 10px 0px 27px 30px;
+  }
+}
+
+h2 {
+  font-family: "Titulo";
+}
+
+p {
+  font-family: "Parrafos";
+}
+
+.segunda-img {
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .segunda-img {
+    width: 200px;
+  }
+}
+
+.tercera-section {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.tercera-titulo {
+  margin: 60px;
+  text-align: center;
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  .tercera-titulo {
+    margin: 60px;
+  }
+}
+
+.tercera-parrafo {
+  margin: 0 30px 150px 30px;
+  text-align: center;
+}
+
+.tercera-contenedor {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .tercera-contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+}
+
+.tercera-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .tercera-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.tercera-img {
+  width: 30%;
+}
+
+.tercera-subtitulo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Titulo";
+}
+
+.cuarta {
+  color: #fafafa;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .cuarta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+.texto-cuatro {
+  font-family: "Titulo";
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.form {
+  font-family: "Parrafos";
+  width: 100%;
+  display: grid;
+  gap: 40px;
+  max-width: 350px;
+}
+@media (min-width: 768px) {
+  .form {
+    margin-top: 105px;
+  }
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+
+.input-text,
+textarea {
+  background-color: #ffffff;
+
+  font-size: 13px;
+  width: 100%;
+  padding: 10px;
+  min-height: 45px;
+}
+
+.textarea {
+  min-height: 133px;
+}
+
+.button {
+  width: 100%;
+  background-color: #ffd953;
+  border: none;
+  padding: 13px;
+  font-family: "Parrafos";
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0px 70px 0px;
+  border-radius: 5px;
+}
+
+.quinta {
+  background-color: #dbdbdb;
+}
+.footer {
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+}
+@media (min-width: 768px) {
+  .footer {
+    background-color: #eeeeee;
+    background-image: url(./puntitos.svg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contenedor-logos {
+    margin-right: 150px;
+    margin-top: 40px;
+  }
+}
+.logo-footer {
+  margin: 53px 0 18px 16px;
+  font-size: 13px;
+}
+@media (min-width: 768px) {
+  .logo-footer {
+    margin: 53px 0 18px 43px;
+    font-size: 13px;
+  }
+}
+.p-footer {
+  margin: 18px 0 20px 10px;
+}
+.logo {
+  margin-left: 20px;
+}
+.p-logo {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.logo-redes {
+  height: 27px;
+  width: 27px;
+  vertical-align: middle;
+}
