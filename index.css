@@ -114,6 +114,7 @@ body {
 
 .primera-img {
   height: 300px;
+  margin-bottom: 60px;
 }
 @media (min-width: 768px) {
   .primera-img {
