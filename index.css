@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Titulo";
-  src: url("./OpenSans-Bold.ttf");
+  src: url("./Recursos/OpenSans-Bold.ttf");
 }
 @font-face {
   font-family: "Parrafos";
-  src: url("./Roboto-Regular.ttf");
+  src: url("./Recursos/Roboto-Regular.ttf");
 }
 
 * {
@@ -13,11 +13,11 @@
 
 body {
   margin: 0;
-  background-image: url(./puntitos.svg);
+  background-image: url(./Recursos/puntitos.svg);
 }
 
 .header {
-  background-image: url(./puntitos.svg);
+  background-image: url(./Recursos/puntitos.svg);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -35,9 +35,8 @@ body {
 }
 
 .logo1 {
-  height: 60px;
-  margin-top: 18px;
-  margin-left: 17px;
+  height: 125px;
+  margin-left: 5px;
 }
 
 .contenedor-menu-mobile {
@@ -88,7 +87,6 @@ body {
 
 @media (min-width: 768px) {
   .primera-section {
-    height: 616px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -108,19 +106,20 @@ body {
   .primera-titulo {
     text-align: left;
     font-family: "Titulo";
-    font-size: 48px;
+    font-size: 60px;
     width: 331px;
-    margin-right: 70px;
+    margin: 70px 42px 186px 42px;
   }
 }
 
 .primera-img {
   height: 300px;
-  width: 200px;
 }
 @media (min-width: 768px) {
   .primera-img {
     margin-right: 70px;
+    margin-bottom: 100px;
+    height: 250px;
   }
 }
 .segunda-section {
@@ -337,12 +336,12 @@ textarea {
   background-color: #dbdbdb;
   display: flex;
   flex-direction: column;
-  height: 550px;
+  height: 400px;
 }
 @media (min-width: 768px) {
   .footer {
     background-color: #eeeeee;
-    background-image: url(./puntitos.svg);
+    background-image: url(./recursos/puntitos.svg);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -350,24 +349,31 @@ textarea {
   }
 }
 
+.contenedor-logos {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
   .contenedor-logos {
-    margin-right: 150px;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 43px;
+    margin-top: 56px;
   }
 }
 .logo-footer {
-  margin: 53px 0 18px 16px;
+  margin: 0 0 18px 16px;
   font-size: 13px;
 }
 @media (min-width: 768px) {
   .logo-footer {
-    margin: 53px 0 18px 43px;
+    margin: 43px 0 18px 43px;
     font-size: 13px;
   }
 }
 .p-footer {
-  margin: 18px 0 20px 10px;
+  margin: 18px 0 20px 23px;
 }
 .logo {
   margin-left: 20px;
